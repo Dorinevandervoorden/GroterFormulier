@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mijn eerste website</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+    <header>
+        <h1 class="Header-A">Mijn eerste eigen, zelf gemaakte, website</h1>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="Coming_Soon.html">Coming Soon</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h1 class="Header-B">Contact</h1>
+            <div class="contact">
+                <form name="contact" method="POST" data-netlify="true">
+                    <p>
+                        <label class="form_text">Naam: <input type="text" name="name" /></label>
+                    </p>
+                    <p>
+                        <label class="form_text">E-mailadres: <input type="email" name="email" /></label>
+                    </p>
+                    <p>
+                        <label class="form_text">Telefoonnummer (tel): <input type="tel" name="tel" /></label>
+                    </p>
+                    <p>
+                        <label class="form_text">Leeftijd: <input type="text" name="age" /></label>
+                    </p>
+                    <p>
+                        <label class="form_text">Geboortedatum: <input type="date" name="DOB" /></label>
+                    </p>
+                    <p>
+                        <label class="form_text" name="gender">Geslacht:
+                            <input name="btn" type="radio" /> Man <input name="btn" type="radio" /> Vrouw
+                        </label>
+                    </p>
+                    <p>
+                        <label class="form_text">
+                            <input type="checkbox" name="cuisine" /> Frans
+                            <input type="checkbox" name="cuisine" /> Spaans
+                            <input type="checkbox" name="cuisine" /> Italiaans
+                            <input type="checkbox" name="cuisine" /> Arabisch
+                        </label>
+                    </p>
+                    <p>
+                        <label class="form_text">Schortkleur:: <input type="color" name="color" /></label>
+                    </p>
+                    <p>
+                        <label class="form_text">Biografie: <textarea name="message"></textarea></label>
+                    </p>
+                    <p>
+                        <label class="form_text">Upload je laatste recept: <input type="file" name="file" /></label>
+                    </p>
+                    <p>
+                        <label class="form_text">Jouw website: <input type="url" name="website" /></label>
+                    </p>
+                    <p>
+                        <button type="reset">Formulier leegmaken</button>
+                        <button type="submit">Versturen</button>
+                    </p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="FF">
+        <h2>Copyright D. van der Voorden 2021</h2>
+    </footer>
+
+</body>
+
+</html>
